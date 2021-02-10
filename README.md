@@ -71,7 +71,7 @@ python predict.py predict --load_path='checkPoints/rfcn_voc07_0.725_ohem.pth'
 ## Weights & CheckPoints
 You can download the [weights of ResNet101](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth) and place it in `weights` folder.
 
-You can download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/191T-sP6Ji1O9A_GMPkRNwTsOM76VOlY2?usp=sharing) and place it in `checkPoints` folder.
+You can download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/191T-sP6Ji1O9A_GMPkRNwTsOM76VOlY2?usp=sharing) or [`百度云盘`(passwd: 9o15)](https://pan.baidu.com/s/1M4hs0reuLGnYJboSUVIpGQ) and place it in `checkPoints` folder.
 
 ## Acknowledgement
 This project is writen by [elbert-xiao](https://github.com/elbert-xiao), and thanks to the provider chenyuntc for the project [**simple-faster-rcnn-pytorch**](https://github.com/chenyuntc/simple-faster-rcnn-pytorch)!
