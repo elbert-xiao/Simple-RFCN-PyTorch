@@ -5,9 +5,9 @@ This project can be run with Pytorch 1.7.
 
 ## Results
 **1. train on voc2007 & <font color=red>no</font> OHEM**
-![results of train on Voc2007](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/main/readme/map_voc2007.png)
+![results of train on Voc2007](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/map_voc2007.png)
 **2. train on voc07+12 & OHEM**
-![results of train on Voc07+12](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/main/readme/map_voc0712.png)
+![results of train on Voc07+12](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/map_voc0712.png)
 
 
 |                           | Train on voc2007 | Train on voc07+12 |
@@ -50,13 +50,13 @@ python train.py RFCN_train
 ```
 
 Access 'http://localhost:8097/' to view loss and mAP (real-time). <br>
-![train fps](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/main/readme/train_fps.png "Fps during training")
+![train fps](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/train_fps.png "Fps during training")
 
 **Eval:**<br>
 ```shell script
 python train.py RFCN_eval --load_path='checkPoints/rfcn_voc07_0.725_ohem.pth' --test_num=5000
 ```
-![test fps](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/main/readme/test_fps.png "Fps during testing")
+![test fps](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/test_fps.png "Fps during testing")
 
 **Predict**<br>
 Place the pictures to be predicted in `predict/imgs` folder.<br>
