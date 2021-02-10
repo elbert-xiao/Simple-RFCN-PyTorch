@@ -4,7 +4,7 @@ A simple and concise implementation of the RFCN is given.
 This project can be run with Pytorch 1.7.
 
 ## Results
-**1. train on voc2007 & <font color=red>no</font> OHEM**
+**1. train on voc2007 & <font color=red>no</font> OHEM** (2080ti)
 ![results of train on Voc2007](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/map_voc2007.png)
 **2. train on voc07+12 & OHEM**
 ![results of train on Voc07+12](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/map_voc0712.png)
