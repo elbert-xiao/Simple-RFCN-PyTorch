@@ -120,6 +120,7 @@ def RFCN_train(**kwargs):
         rfcn_trainer.load(opt.load_path, load_viz_idx=opt.load_viz_x)
         print('load pretrained model parameters from %s' % opt.load_path)
         print("lr is:", rfcn_trainer.optimizer.param_groups[0]['lr'])
+    rfcn_trainer.train()
     rfcn_trainer.viz.text(train_db.db.CLASS_NAME, win='labels')
     best_map = 0
 
@@ -199,3 +200,5 @@ if __name__ == '__main__':
     import fire
     fire.Fire()
 
+# python train.py RFCN_train --load_path='/home/elbert/projects/rfcn/checkPoints/rfcn_voc07_0.725_ohem.pth' \
+#        --load_resnet101_path='/home/elbert/projects/rfcn/weights/resnet101-5d3b4d8f.pth' --rfcn_init_lr=0.0001 --total_epoch=8
