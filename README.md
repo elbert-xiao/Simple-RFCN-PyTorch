@@ -5,9 +5,9 @@ This project can be run with Pytorch 1.7.
 
 ## Results
 **1. train on voc2007 & no OHEM**
-![results of train on Voc2007](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/map_voc2007.png)
+![results of train on Voc2007](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/tree/master/readme/map_voc2007.png)
 **2. train on voc07+12 & OHEM**
-![results of train on Voc07+12](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/map_voc0712.png)
+![results of train on Voc07+12](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/tree/master/readme/map_voc0712.png)
 
 
 |                           | Train on voc2007 | Train on voc07+12 |
