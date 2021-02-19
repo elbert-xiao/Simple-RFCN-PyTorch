@@ -66,8 +66,6 @@ python predict.py predict --load_path='checkPoints/rfcn_voc07_0.725_ohem.pth'
 ```
 
 
-
-
 ## Weights & CheckPoints
 You can download the [weights of ResNet101](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth) and place it in `weights` folder.
 
@@ -78,4 +76,6 @@ This project is writen by [elbert-xiao](https://github.com/elbert-xiao), and tha
 
 
 If you have any question, please feel free to open an issue.
+
+![RFCN structure](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/rfcn_structure.svg "RFCN Structure")
 
