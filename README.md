@@ -77,5 +77,5 @@ This project is writen by [elbert-xiao](https://github.com/elbert-xiao), and tha
 
 If you have any question, please feel free to open an issue.
 
-![RFCN structure](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/rfcn_structure_fig.svg "RFCN Structure")
+![RFCN structure](https://github.com/elbert-xiao/Simple-RFCN-PyTorch/blob/master/readme/rfcn_structure.svg "RFCN Structure")
 
